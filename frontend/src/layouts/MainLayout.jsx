@@ -1,9 +1,14 @@
+import { MainFooter, MainHeader } from "@/components/layout";
+import { Outlet } from "react-router-dom";
+
 const MainLayout = ({ children }) => {
   return (
     <>
-      <header> header </header>
-      <main>{children}</main>
-      <footer> footer </footer>
+      <MainHeader />
+      <main>
+        <Outlet />
+      </main>
+      <MainFooter />
     </>
   );
 };
