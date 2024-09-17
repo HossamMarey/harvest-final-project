@@ -1,11 +1,11 @@
+import MainLayout from "./layouts/MainLayout";
 import { MainRoutes } from "./MainRoutes";
-import { Button } from "@/components/ui/button";
+
 function App() {
   return (
-    <div>
-      <Button> Hello </Button>
+    <MainLayout>
       <MainRoutes />
-    </div>
+    </MainLayout>
   );
 }
 
