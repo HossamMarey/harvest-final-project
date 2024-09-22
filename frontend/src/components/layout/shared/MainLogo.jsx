@@ -1,10 +1,11 @@
 import React from "react";
 
 import logoImg from "@/assets/images/logo.png";
+import { Link } from "react-router-dom";
 // footer 56
 const MainLogo = ({ size = 43 }) => {
   return (
-    <div>
+    <Link to="/">
       <img
         src={logoImg}
         alt="logo"
@@ -12,7 +13,7 @@ const MainLogo = ({ size = 43 }) => {
           height: `${size}px`,
         }}
       />
-    </div>
+    </Link>
   );
 };
 

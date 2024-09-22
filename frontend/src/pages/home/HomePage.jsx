@@ -1,10 +1,13 @@
 import { ProprtiesListing } from "@/components/properties";
+import { MainHomeHero } from "@/components/search";
 import React from "react";
 
 const HomePage = () => {
   return (
     <>
-      <section> Hero </section>
+      <section>
+        <MainHomeHero />
+      </section>
       <section>
         {" "}
         <ProprtiesListing title="Latest on the Property Listing" />{" "}

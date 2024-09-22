@@ -3,9 +3,11 @@ import MainLogo from "./shared/MainLogo";
 import { Button } from "@/components/ui/button";
 import MenuDropDown from "./shared/MenuDropDown";
 import NavMenu from "./shared/NavMenu";
-const MainHeader = () => {
+const MainHeader = ({ isSticky = false }) => {
   return (
-    <header className="bg-foreground   py-3">
+    <header
+      className={` ${isSticky ? " sticky top-0 " : "bg-foreground  "}   py-3`}
+    >
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-3">
           <MenuDropDown />

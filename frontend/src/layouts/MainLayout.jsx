@@ -1,10 +1,12 @@
 import { MainFooter, MainHeader } from "@/components/layout";
-import { Outlet } from "react-router-dom";
+import { Outlet, useNavigation, useLocation } from "react-router-dom";
 
 const MainLayout = ({ children }) => {
+  const pathname = useLocation().pathname;
+
   return (
     <>
-      <MainHeader />
+      <MainHeader isSticky={pathname === "/"} />
       <main>
         <Outlet />
       </main>

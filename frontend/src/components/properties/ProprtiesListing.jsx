@@ -1,4 +1,5 @@
 import React from "react";
+import HotelCard from "./HotelCard";
 
 const ProprtiesListing = ({
   title,
@@ -6,7 +7,7 @@ const ProprtiesListing = ({
   showReviews = false,
 }) => {
   return (
-    <div className="container bg-red-500/20 my-4 py-8">
+    <div className="container  my-4 py-8">
       <div className="mb-16">
         <h2 className="max-w-[300px]  text-3xl font-bold"> {title} </h2>
 
@@ -15,7 +16,13 @@ const ProprtiesListing = ({
         </span>
       </div>
 
-      <div>cards hotels</div>
+      <div className="grid  gap-6 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        {Array(4)
+          .fill("")
+          .map((_, index) => (
+            <HotelCard key={index} showReviews={showReviews} />
+          ))}
+      </div>
     </div>
   );
 };
