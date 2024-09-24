@@ -1,5 +1,5 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { HomePage, CategoriesPage } from "@/pages";
+import { HomePage, CategoriesPage, SingleHotelPage } from "@/pages";
 import MainLayout from "./layouts/MainLayout";
 
 const router = createBrowserRouter([
@@ -14,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/hotels",
         element: <CategoriesPage />,
+      },
+      {
+        path: "/hotels/:id",
+        element: <SingleHotelPage />,
       },
     ],
   },

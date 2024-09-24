@@ -1,5 +1,6 @@
 import React from "react";
 import HotelCard from "./HotelCard";
+import { useGetProfileQuery } from "@/services/apis/auth";
 
 const ProprtiesListing = ({
   title,
