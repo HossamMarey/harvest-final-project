@@ -7,7 +7,11 @@ export const roomTypes = ["Entire home/apt", "Private room", "Shared room"];
 
 const hotelSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  type: String,
+  type: {
+    type: String,
+
+
+  },
   imgUrls: [String],
   price: {
     type: Number,

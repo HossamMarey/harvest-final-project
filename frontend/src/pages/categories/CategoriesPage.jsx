@@ -1,7 +1,8 @@
+import { MainCategories } from "@/components/properties";
 import React from "react";
 
 const CategoriesPage = () => {
-  return <div>CategoriesPage</div>;
+  return <MainCategories />;
 };
 
 export default CategoriesPage;

@@ -4,19 +4,19 @@ import { FaHeart, FaRegHeart } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { MainReviews } from "../shared";
 
-const HotelCard = ({ showReviews = false }) => {
+const HotelCard = ({ showReviews = false, data, showPrice = false }) => {
   const [isFavourite, setIsFavourite] = useState(false);
 
   return (
     <Link
-      to="/hotels/id"
+      to={"/hotels/" + data?._id}
       className="rounded-lg bg-card shadow  hover:opacity-80 transition-all duration-300 "
     >
       <div className="relative  ">
         <div className="absolute top-3 left-3 right-3 flex items-center justify-between">
           {showReviews ? (
             <div className=" ">
-              <MainReviews rate={2.5} className="text-background" />
+              <MainReviews rate={data?.avgRating} className="text-background" />
             </div>
           ) : (
             <span></span>
@@ -39,27 +39,29 @@ const HotelCard = ({ showReviews = false }) => {
           </Button>
         </div>
         <img
-          src="https://images.unsplash.com/photo-1726853522009-8dc4c4e306a3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="hotel data"
+          src={data?.imgUrls?.[0]}
+          alt={data?.name || ""}
           className="rounded-t-lg aspect-square object-cover w-full"
         />
-        <div className="w-16 h-16 rounded-full bg-background absolute bottom-2 left-3">
-          {" "}
-        </div>
+
+        {showPrice ? (
+          <div className="w-full h-16  absolute bottom-0 left-0 p-3 font-bold flex items-end bg-gradient-to-t from-black/50 to-black/0 text-white text-lg">
+            {" "}
+            ${data?.price}
+          </div>
+        ) : (
+          <div className="w-16 h-16 rounded-full bg-background absolute bottom-2 left-3">
+            {" "}
+          </div>
+        )}
       </div>
       <div className="p-4">
-        <h3
-          className="text-xl font-bold truncate"
-          title=" hotel title hotel titlehotel titlehotel titlehotel titlehotel
-          titlehotel titl ehotel titlehotel titlehotel titlehotel title"
-        >
-          {" "}
-          hotel title hotel titlehotel titlehotel titlehotel titlehotel
-          titlehotel titl ehotel titlehotel titlehotel titlehotel title{" "}
+        <h3 className="text-xl font-bold truncate" title={data?.name}>
+          {data?.name}
         </h3>
-        <p className="text-sm truncate" title="hotel desription">
+        <p className="text-sm truncate" title={data?.summary}>
           {" "}
-          hotel desription
+          {data?.summary}
         </p>
       </div>
     </Link>

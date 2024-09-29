@@ -1,8 +1,12 @@
 
 import express from "express"
-import { login, register, forgetPassword, resetPassword, profile, updateUserProfile } from '../controllers/userController.js'
+import { getHotels, getHotelRoomTypes } from '../controllers/hotelController.js'
 
 const router = express.Router()
 
-router.get("/", register)
+router.get("/", getHotels)
+router.get("/room-types", getHotelRoomTypes)
+
+
+
 export default router
