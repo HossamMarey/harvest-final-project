@@ -1,0 +1,882 @@
+[
+  {
+    "_id": "641024f27b57517e96cb6c90",
+    "name": "Westin Kaanapali KORVS 2BR OCEAN VIEW",
+    "type": "Amazing views",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437349/thl7eoxar7dc7kpbahhj.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436571/fvqbazrysqpymjlhhdqu.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436811/ym5nh1anownexsyzgbqq.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436948/vgfxpvmcpd2q40qxtuv3.jpg"
+    ],
+    "price": 799,
+    "summary": "Westin Kaanapali Ocean Resort Villas South timeshare - Pay resort: $14-20/day, stays under 7 night $38/res - Inquire about availability, I review then offer/approve if available :) - READ \"The Space\" for cleaning/etc AND brief explanation about timeshare reservations - Guaranteed view MUST BE 7 nights (mult weeks avail), check-in Fri/Sat/Sun. More/Less nights @ higher cost - Wheelchair accessible / ADA, call resort directly to ensure U receive. If U need ADA U MUST inform us BEFORE booking.",
+    "capacity": 8,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "United States",
+      "countryCode": "US",
+      "city": "Maui",
+      "address": "Lahaina, HI, United States",
+      "lat": -156.69171,
+      "lan": 20.936890000000002
+    },
+    "labels": [
+      "OMG",
+      "Earth homes",
+      "Minsus"
+    ]
+  },
+  {
+    "_id": "6410250f7b57517e96cb6c91",
+    "name": "Burgazada da çarşıya yakın daire",
+    "type": "OMG!",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436368/noebywqae4x0u42srsv3.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437321/lb1j83rv5xox1ovn5pgz.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436397/nde7l2hrwezdfzbvhczj.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg"
+    ],
+    "price": 348,
+    "summary": "Yeşillikler ve tipik ada evleri arasında yürüyüş yapmak, bisiklete binmek, yüzmek, S.F.Abasıyanık Müzesini gezmek, İstanbul un en güzel gün batımına şahit Kalpazankaya da yemek yemek, baharda mimoza toplamak, Marta yı anlamak koyunda yüzerken",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Hot water",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Turkey",
+      "countryCode": "TR",
+      "city": "Istanbul",
+      "address": "TR, Turkey",
+      "lat": 29.06648,
+      "lan": 40.87794
+    },
+    "labels": [
+      "Skiing",
+      "Beachfront",
+      "Ryokans"
+    ]
+  },
+  {
+    "_id": "641025287b57517e96cb6c92",
+    "name": "Artsy 4BR in Plateau by Sonder",
+    "type": "Beachfront",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437025/haliwehueqfkmxo1tv7j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg"
+    ],
+    "price": 152,
+    "summary": "At this Sonder, you'll love the bright and airy decor, expansive living area, and beautiful fully-equipped kitchen with modern appliances. Located in the Le Plateau, known for its assortment of delicious restaurants and relaxed cafes.",
+    "capacity": 8,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 4,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Canada",
+      "countryCode": "CA",
+      "city": "Montreal",
+      "address": "Montreal, QC, Canada",
+      "lat": -73.58256,
+      "lan": 45.51664
+    },
+    "labels": [
+      "Private rooms",
+      "Play",
+      "Ryokans"
+    ]
+  },
+  {
+    "_id": "641025417b57517e96cb6c93",
+    "name": "2 bedroom Upper east side",
+    "type": "Beach",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436525/wdod0zfzsipkigajueda.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436844/vowx18k0arro8jyekcap.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436897/iz1ik9nibj3sobzrqomf.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg"
+    ],
+    "price": 275,
+    "summary": "Near 70th and 1st.  A very nice 6th floor walk-up with true 2 bedrooms and one bath. Full Kitchen. One bedroom has a queen and the other a double.  Living room has a couch you could sleep on too. New powerful air conditioner cools whole apt. Great area with restaurants, shopping and walk to Central Park Please contact us first if reserving on same day, we might need time to arrange for keys. Holiday weekends we prefer 3 night stays. Thank you!",
+    "capacity": 5,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "United States",
+      "countryCode": "US",
+      "city": "New York",
+      "address": "New York, NY, United States",
+      "lat": -73.95854,
+      "lan": 40.7664
+    },
+    "labels": [
+      "Tropical",
+      "Minsus",
+      "Skiing"
+    ]
+  },
+  {
+    "_id": "6410255c7b57517e96cb6c94",
+    "name": "1 Stop fr. Manhattan! Private Suite,Landmark Block",
+    "type": "Islands",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436456/aazeb5pemja3ddxauatd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437282/qy0p7yyaukasripzwc7w.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg"
+    ],
+    "price": 130,
+    "summary": "Private room, dedicated bath and a separate entrance. Totally renovated Queen Anne Historic Townhouse Home on a safe, Landmark Block. Only one stop from Midtown Manhattan! Enjoy the rear private Garden at breakfast time. Beautiful tree lined,quiet street. 4 subway lines ( E, M, 7 and G ) are one block away! Great restaurants, supermarket and cafes nearby.",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "United States",
+      "countryCode": "US",
+      "city": "New York",
+      "address": "Queens, NY, United States",
+      "lat": -73.9474,
+      "lan": 40.74771
+    },
+    "labels": [
+      "Golfing",
+      "Earth homes",
+      "Skiing"
+    ]
+  },
+  {
+    "_id": "6410257a7b57517e96cb6c95",
+    "name": "Two bedroom apartment",
+    "type": "Amazing pools",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437025/haliwehueqfkmxo1tv7j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436867/yocip4igdbruuh2grzpf.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436983/pivldxmrxssnhyzixhes.jpg"
+    ],
+    "price": 155,
+    "summary": "Cozy apartment with wooden floors, two bedrooms, one with double bed, the second with two single beds, two bathrooms and equipped kitchen.",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Spain",
+      "countryCode": "ES",
+      "city": "Barcelona",
+      "address": "Barcelona, Catalunya, Spain",
+      "lat": 2.17434,
+      "lan": 41.39137
+    },
+    "labels": [
+      "Campers",
+      "Private rooms",
+      "Caves"
+    ]
+  },
+  {
+    "_id": "641025937b57517e96cb6c96",
+    "name": "Sunny and quiet room with private shower room",
+    "type": "Beachfront",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436385/sorbz7rdtxacu1ds9vel.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436329/cvylwkta0uannbxm3zns.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437339/qgs3hrnx0accbjkzuh9s.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436376/phpltehcr6uq9lh5jlax.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437279/vgq4tkkecvdo2nzxdudx.jpg"
+    ],
+    "price": 40,
+    "summary": "Very quite and sunny room with private shower room My place is in Poble Sec, one of the most charming neighborhood in Barcelona. Located in the shadow of Montjuic's hill,the biggest and most beautiful parc in the city Just 2min far from  metro station and 15min from the airport bus stop Poble Sec is sizzling with open air bars and  quite streets ,pretty squares and friendly locals make it worthy The flat is in the 5th FLOOR NO LIFT  There's a lovely fat cat living",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Spain",
+      "countryCode": "ES",
+      "city": "Barcelona",
+      "address": "Barcelona, Catalunya, Spain",
+      "lat": 2.15691,
+      "lan": 41.37475
+    },
+    "labels": [
+      "Caves",
+      "Beachfront",
+      "New"
+    ]
+  },
+  {
+    "_id": "641025b67b57517e96cb6c97",
+    "name": "Inner City Terrace - 2 rooms 2 beds - 4 ppl.",
+    "type": "OMG!",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436236/ctnbnqazpqhotjcauqwp.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436542/e96nrbkjz8mecvsbzukk.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437259/pw5sosryaebjynvwppcy.jpg"
+    ],
+    "price": 171,
+    "summary": "Our home is located in Darlington, a small niche suburb of Sydney with a relaxed, friendly and safe atmosphere. We are located a 10 min walk to Broadway, Glebe, Newtown, The University, surrounded by fantastic restaurants, cafes, pubs, markets and public transport. It is a 20 min walk to the city centre.",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Australia",
+      "countryCode": "AU",
+      "city": "Sydney",
+      "address": "Darlington, NSW, Australia",
+      "lat": 151.1965,
+      "lan": -33.88848
+    },
+    "labels": [
+      "Tropical",
+      "Ryokans",
+      "Casas particulares"
+    ]
+  },
+  {
+    "_id": "641025d47b57517e96cb6c98",
+    "name": "Nice room with queen sized bed",
+    "type": "Shared homes",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437053/cg3bpdujvsd9lswwpfgy.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437269/u6wxkpazgvqdxiceky9l.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437006/kcsenznwf3pnka6hjwoh.jpg"
+    ],
+    "price": 30,
+    "summary": "A lovely room with a queen sized bed, chair, dresser, lamp and closet. This room has AC for the hotter months. Guests are welcome to use the kitchen, living room and study.",
+    "capacity": 1,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Canada",
+      "countryCode": "CA",
+      "city": "Montreal",
+      "address": "Montreal, QC, Canada",
+      "lat": -73.58677,
+      "lan": 45.52572
+    },
+    "labels": [
+      "Caves",
+      "Amazing views",
+      "Amazing views"
+    ]
+  },
+  {
+    "_id": "641026157b57517e96cb6c99",
+    "name": "Cozy and modern Lapa-studio",
+    "type": "OMG!",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436359/abuiyexl2xyemq8uon4s.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436321/g2cs1w7tkxsx58penq9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436470/jrzh7wvpvulqxo42xocc.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436801/mcuu1w2188ndpd6hezzt.jpg"
+    ],
+    "price": 112,
+    "summary": "Studio in modernized building with games room, gym, computer room, ballroom and rooftop pool. The studio with modern, cheerful decor, with light vintage feel is divided into bedroom and living room with kitchen.",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Brazil",
+      "countryCode": "BR",
+      "city": "Rio De Janeiro",
+      "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
+      "lat": -43.182736348008305,
+      "lan": -22.9106385343457
+    },
+    "labels": [
+      "Countryside",
+      "Top of the world",
+      "Tropical"
+    ]
+  },
+  {
+    "_id": "6410262c7b57517e96cb6c9a",
+    "name": "Double room with private bathroom",
+    "type": "Beachfront",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436588/cxkvvaext8m0kjuaxcrk.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436310/acidri8oahpcoxa0idns.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437049/gpanmdffbwd9crhnzswa.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436414/trl4n8noogyun10qmds8.jpg"
+    ],
+    "price": 38,
+    "summary": "Double room on the second floor of a new constructed duplex of modern design. There are a wardrobe, a small table and its own air conditioner that could be used  for winter as well as for summer. Large family size bed of 135 x 190 cm. Inside the apartment you could freely use large kitchen with dining table and a lot of modern kitchen devices. Itºs located in a quiet neighborhood just in  15 min by train or metro (the train or metro station are just in 5 min by foot from apartment).",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Spain",
+      "countryCode": "ES",
+      "city": "Barcelona",
+      "address": "Barcelona, CT, Spain",
+      "lat": 2.17935,
+      "lan": 41.43038
+    },
+    "labels": [
+      "Ryokans",
+      "Beachfront",
+      "Minsus"
+    ]
+  },
+  {
+    "_id": "6410264f7b57517e96cb6c9b",
+    "name": "Quarto Taquara - Jacarepaguá",
+    "type": "Amazing views",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436255/nmccht42mpd6erdeqjhi.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436872/i3jblqgpdttpwvshbffo.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437009/zuu2udtrkcs6sxjiym40.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436556/mb70fifvvpvde8jub5cg.jpg"
+    ],
+    "price": 101,
+    "summary": "Quarto exclusivo com armário e sofá cama de casal, possui ainda um colchão de casal. Apartamento localizado próximo a estação do BRT - Aracy Cabral - Bairro da Taquara - Jacarepaguá de fácil acesso aos bairros da Barra da Tijuca, Recreio, etc.",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Brazil",
+      "countryCode": "BR",
+      "city": "Rio De Janeiro",
+      "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
+      "lat": -43.37035220190699,
+      "lan": -22.91636184358952
+    },
+    "labels": [
+      "Play",
+      "Minsus",
+      "Off-the-grid"
+    ]
+  },
+  {
+    "_id": "6410266a7b57517e96cb6c9c",
+    "name": "18C.  NICE AND COZY 2 BEDROOMS. PERFECT location!",
+    "type": "Amazing pools",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437349/thl7eoxar7dc7kpbahhj.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436578/y1fshh0nppk5nxbfzqoz.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436864/ww1gixcmzwryfe1amps1.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436255/nmccht42mpd6erdeqjhi.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437061/xwqh3jtahjqxod0p1a0c.jpg"
+    ],
+    "price": 90,
+    "summary": "NICE AND COZY APARTMENT WITH 2 BEDROOMS ON A TOP FLOOR. LOCATED ON ST-LAURENT BOULEVARD. WALKING DISTANCE TO MANY GOOD RESTAURANTS, BARS, SHOPPING AND OTHER SERVICES.",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Canada",
+      "countryCode": "CA",
+      "city": "Montreal",
+      "address": "Montréal, Québec, Canada",
+      "lat": -73.57981,
+      "lan": 45.51702
+    },
+    "labels": [
+      "Casas particulares",
+      "Earth homes",
+      "Amazing views"
+    ]
+  },
+  {
+    "_id": "641026847b57517e96cb6c9d",
+    "name": "Ipanema: moderno apê 2BR + garagem",
+    "type": "Campers",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436406/id1oo8krwgxvdf9s02qp.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436961/rj6eo6v6npy65bckaxvr.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437040/oarfkdxx7gyyvcynvwko.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436933/ysvap4wzv8ziwtpbznf8.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437272/e2id7kpaglrrdug3i6if.jpg"
+    ],
+    "price": 298,
+    "summary": "Moderno apartamento de 2 quartos com garagem em bucólica rua de Ipanema, a poucos metros da Lagoa Rodrigo de Freitas.",
+    "capacity": 4,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning"
+    ],
+    "bathrooms": 2,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Brazil",
+      "countryCode": "BR",
+      "city": "Rio De Janeiro",
+      "address": "Rio de Janeiro, Rio de Janeiro, Brazil",
+      "lat": -43.1998455458952,
+      "lan": -22.980051683700506
+    },
+    "labels": [
+      "Adapted",
+      "OMG",
+      "Golfing"
+    ]
+  },
+  {
+    "_id": "641026a17b57517e96cb6c9e",
+    "name": "Oceanfront & Breath Taking Views.",
+    "type": "National parks",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436797/hzfu8ihyoecadrermn14.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436886/cvc2yfmhfg9dabfkyiqw.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437168/vbmfmdmwrxt7xfwbsw7c.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436912/xle8ueqxjeazbs4bp09p.jpg"
+    ],
+    "price": 230,
+    "summary": "A spectacular oceanfront ground level condo. 10 feet away from the ocean.  Enjoy an unobstructed 180% Amazing Ocean Views, of Molokai & Lanai Islands with awesome sunsets & whale watching in season while sipping your favorite wine from your living room or lanai. Explore & swim  2 reefs just outside your lanai. You have got it all from this renovated private unit. Your backyard is the ocean. In walking distance to town, children friendly, protected by 2 reefs. FREE parking 12 steps to front door.",
+    "capacity": 6,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Shampoo",
+      "Hair dryer",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "United States",
+      "countryCode": "US",
+      "city": "Maui",
+      "address": "Lahaina, HI, United States",
+      "lat": -156.68832,
+      "lan": 20.95134
+    },
+    "labels": [
+      "Campers",
+      "New",
+      "Ryokans"
+    ]
+  },
+  {
+    "_id": "641026c07b57517e96cb6c9f",
+    "name": "East Village Sanctuary",
+    "type": "National parks",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436578/y1fshh0nppk5nxbfzqoz.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437262/ifklqhihs1qinbmap5hd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437250/o8uutj3t2bvfafvxkr9j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436562/aflmntpgocp5l2zxikhl.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436301/etz0n0umubahfkgmmwt8.jpg"
+    ],
+    "price": 200,
+    "summary": "Walking distance to NYU. Large one bedroom with full kitchen and living room. In the hustle and bustle of the east village night, hide away in this green oasis to recharge and reset. Right next to the L, 4, 5, 6, N,R, W and F lines this apartment is the perfect central location for anywhere you want to go in NYC as well as just walking a block or two for a cheap amazing meal.",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "United States",
+      "countryCode": "US",
+      "city": "New York",
+      "address": "New York, NY, United States",
+      "lat": -73.98763,
+      "lan": 40.72808
+    },
+    "labels": [
+      "Caves",
+      "OMG",
+      "Play"
+    ]
+  },
+  {
+    "_id": "641026d87b57517e96cb6ca0",
+    "name": "2017 , férias no Rio",
+    "type": "National parks",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436281/doubvhbpwjfx81yfzpxq.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437045/dmquvficldi8ssfdlrrx.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436942/cfa0wa2uwfyunrhgp4mt.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436509/rii32aibnhkoeejsohie.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436460/qi3vkpts37b4k0dedosc.jpg"
+    ],
+    "price": 250,
+    "summary": "Casa com excelente espaço, localizada no meio da natureza, próximo ao um dos acessos do Parque Estadual da Pedra Branca, que conta com cachoeiras e trilhas na Mata Atlântica e a 10 minutos de carro ou 35 minutos a pé do Parque Olímpico (3.5km) e 3 minutos de carro ou 12 minutos a pé da Vila Olímpica. A casa pricipal conta com 2 quartos com suíte, 2 salas, cozinha, 1 banheiro social e área de serviço.Também contamos com um anexo com 1 quarto com suíte. Os quartos poderão ser compartilhados!",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Private room",
+    "loc": {
+      "country": "Brazil",
+      "countryCode": "BR",
+      "city": "Rio De Janeiro",
+      "address": "Rio de Janeiro, RJ, Brazil",
+      "lat": -43.4186896742968,
+      "lan": -22.96840021041473
+    },
+    "labels": [
+      "Countryside",
+      "Luxe",
+      "Luxe"
+    ]
+  },
+  {
+    "_id": "641026fa7b57517e96cb6ca1",
+    "name": "One bdrm apt in Central/Sheung Wan next to Soho",
+    "type": "National parks",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436287/my8eunlgiiflc2ohslgx.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437287/mns2lapesdourab6dn7u.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436787/gcz7mgmxb6dcl4vz6h0a.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436456/aazeb5pemja3ddxauatd.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436772/nplkpwclhrdvvspkpmbg.jpg"
+    ],
+    "price": 416,
+    "summary": "Located between Hollywood and Caine Road, just down from Soho bars/restaurants and not far from Wyndham St. and LKF nightlife. 5 minute walk to the escalator. Good for travelling couples, solo adventurers, and business travellers.",
+    "capacity": 2,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 2,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "city": "Hong Kong",
+      "address": "Hong Kong, Hong Kong Island, Hong Kong",
+      "lat": 114.15096,
+      "lan": 22.284
+    },
+    "labels": [
+      "Play",
+      "Luxe",
+      "Top of the world"
+    ]
+  },
+  {
+    "_id": "6410271d7b57517e96cb6ca2",
+    "name": "Center of Istanbul, comfortable for family house",
+    "type": "Castles",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436978/mhqf1tttzqr33ecrrwb2.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437344/r4w6s3af55tdt5y1lrcc.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436390/om97cgufeacwlric2r5w.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663437021/cw6mtrxza5fzmmgxen4j.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436394/kscsvxyn0uro9tjhefeb.jpg"
+    ],
+    "price": 200,
+    "summary": "This house is very special house. The area is amazing. Personally I live here. So this house is not a commercial house. I love the area of this house. It is really really in the center of Istanbul. The house is like 100m2 but I will lock one room for my personal belongings.",
+    "capacity": 3,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Backyard",
+      "Pets allowed"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 1,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Turkey",
+      "countryCode": "TR",
+      "city": "Istanbul",
+      "address": "Şişli, İstanbul, Turkey",
+      "lat": 29.01145,
+      "lan": 41.06423
+    },
+    "labels": [
+      "Minsus",
+      "Play",
+      "Earth homes"
+    ]
+  },
+  {
+    "_id": "641027357b57517e96cb6ca3",
+    "name": "Spacious 3bdrm. Artsy and Perfect location!",
+    "type": "Castles",
+    "imgUrls": [
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436306/be2v9wssznxs4hebudb4.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436582/vv0y7twjl7zcj9g71sjf.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436539/jy85me6y4bcsgfjvytwv.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436837/fyczvvyuelceouxja8yy.jpg",
+      "http://res.cloudinary.com/dmtlr2viw/image/upload/v1663436372/d32ktdsaqfoiogz5dpvf.jpg"
+    ],
+    "price": 1146,
+    "summary": "Welcome to stay in my 3bed apartment. Its a rare gem in HK,  as its Huge compared to other Hk apts! Perfect for a few friends sharing or a family. Walk everywhere in Central in  few min. Soho, Escalator, Hollywood road, MTR. It’s walk up building! please check my profile, I have many reviews :)",
+    "capacity": 5,
+    "amenities": [
+      "32\" HDTV with Disney+, standard cable",
+      "Wifi",
+      "AC - split type ductless system",
+      "Private outdoor pool - available all year, open 24 hours, lap pool",
+      "Kitchen",
+      "Free parking on premises",
+      "Hot water",
+      "Heating - split type ductless system",
+      "Indoor fireplace: wood-burning",
+      "Shampoo",
+      "Hair dryer"
+    ],
+    "bathrooms": 1,
+    "bedrooms": 3,
+    "roomType": "Entire home/apt",
+    "loc": {
+      "country": "Hong Kong",
+      "countryCode": "HK",
+      "city": "Hong Kong",
+      "address": "Hong Kong, Hong Kong Island, Hong Kong",
+      "lat": 114.15202,
+      "lan": 22.28582
+    },
+    "labels": [
+      "Earth homes",
+      "OMG",
+      "Off-the-grid"
+    ]
+  }
+]

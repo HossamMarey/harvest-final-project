@@ -21,4 +21,8 @@ export const getAuthCookie = () => {
 
 export const checkAuthToken = () => {
   return !!getAuthCookie()
-} 
+}
+
+export const deleteAuthCookie = () => {
+  return Cookies.remove(TOKEN_NAME)
+}

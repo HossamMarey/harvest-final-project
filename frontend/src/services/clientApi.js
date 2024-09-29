@@ -1,4 +1,4 @@
-import { getAuthCookie } from "@/lib";
+import { deleteAuthCookie, getAuthCookie } from "@/lib";
 import axios from "axios";
 
 
@@ -23,6 +23,21 @@ clientApi.interceptors.request.use(
     return Promise.reject(error);
   }
 );
+
+
+clientApi.interceptors.response.use(function (response) {
+  return response;
+}, async function (error) {
+  const code = parseInt(error.response && error.response.status)
+
+  if (code === 401) {
+    clientApi.defaults.headers.common['Authorization'] = ``;
+    clientApi.defaults.headers.delete['Authorization'] = ``;
+    deleteAuthCookie()
+  }
+
+  return Promise.reject(error);
+});
 
 
 export default clientApi

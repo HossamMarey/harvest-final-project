@@ -4,6 +4,7 @@ import dotenv from "dotenv";
 import { initDb } from "./db.js";
 
 import userRouter from "./routes/userRoute.js"
+import hotelRoute from "./routes/hotelRoute.js"
 import { errorHandler } from "./middleware/errorHandler.js";
 
 const app = express();
@@ -22,6 +23,7 @@ app.use(express.json());
 
 
 app.use(`${baseApiUrl}/auth`, userRouter)
+app.use(`${baseApiUrl}/hotels`, hotelRoute)
 
 
 app.use(errorHandler)

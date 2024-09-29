@@ -12,6 +12,11 @@ export const useGetProfileQuery = () => {
 };
 
 export const getProfile = async () => {
+  const token = getAuthCookie();
+  if (!token) {
+    return null;
+  }
+
   const response = await clientApi.get("/auth/me");
   return response?.data;
 };
