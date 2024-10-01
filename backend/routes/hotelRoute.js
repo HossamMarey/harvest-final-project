@@ -7,6 +7,4 @@ const router = express.Router()
 router.get("/", getHotels)
 router.get("/room-types", getHotelRoomTypes)
 
-
-
 export default router

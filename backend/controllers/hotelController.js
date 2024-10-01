@@ -61,22 +61,21 @@ export const getHotels = asyncHandler(async (req, res) => {
 
 
 
-  // if (req.query.lat && req.query.lan) {
+  // if (req.query.lat && req.query.lng) {
+
   //   const lat = parseFloat(req.query.lat)
-  //   const lan = parseFloat(req.query.lan)
-  //   const maxDistatance = parseInt(req.query.maxDistance) || 5000  //  1k
+  //   const lng = parseFloat(req.query.lng)
+  //   const maxDistance = parseInt(req.query.maxDistance) || 1000  //  1k
 
   //   filters.loc = {
   //     $near: {
-  //       $maxDistance: 1,
+  //       $maxDistance: maxDistance,
   //       $geometry: {
   //         type: 'Point',
-  //         coordinates: [-84.27326978424058, 30.443902444762696]
-  //       }
+  //         coordinates: [lng, lat]
+  //       },
   //     }
   //   }
-
-
   // }
 
 
@@ -86,7 +85,6 @@ export const getHotels = asyncHandler(async (req, res) => {
 
   res.json({ success: true, data, pagination: { page, perPage, total } })
 })
-
 
 
 export const getHotelRoomTypes = asyncHandler(async (req, res) => {

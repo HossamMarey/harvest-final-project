@@ -33,8 +33,10 @@ const hotelSchema = new mongoose.Schema({
     countryCode: String,
     city: String,
     address: String,
-    lat: Number,
-    lan: Number
+    // lat: Number,
+    // lng: Number,
+    coordinates: [Number],
+    type: { type: String, enum: ["Point"], default: "Point" },
   },
   labels: [String],
   avgRating: {
@@ -44,7 +46,8 @@ const hotelSchema = new mongoose.Schema({
     default: 0
   }
 }, {
-  timestamps: true
+  timestamps: true,
+  autoIndex: true,
 });
 
 export default mongoose.model("Hotel", hotelSchema)
