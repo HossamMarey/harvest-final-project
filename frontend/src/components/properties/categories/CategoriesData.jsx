@@ -1,26 +1,45 @@
 import { Skeleton } from "@/components/shared";
-import { useGetHotelsQuery } from "@/services/apis/hotels";
-import React, { useEffect, useState } from "react";
+import {
+  useGetHotelsInfiniteQuery,
+  useGetHotelsQuery,
+} from "@/services/apis/hotels";
+import React, { useEffect, useMemo, useState } from "react";
 import HotelCard from "../HotelCard";
 import { useInView } from "react-intersection-observer";
 
 const CategoriesData = () => {
   const [page, setPage] = useState(1);
-  const { data, isLoading, error, refetch } = useGetHotelsQuery({ page });
+  const { data, isLoading, error, refetch, fetchNextPage, isFetching } =
+    useGetHotelsInfiniteQuery();
   const { ref, inView, entry } = useInView({
     /* Optional options */
     threshold: 0,
   });
 
-  console.log("CATEG , ", { data, isLoading, error, refetch });
+  console.log("CATEG , ", {
+    data: data?.pages,
+    isLoading,
+    error,
+    refetch,
+  });
 
   console.log("SSSS", inView);
 
   useEffect(() => {
-    if ((inView, data?.data?.length, !isLoading)) {
-      setPage((p) => p + 1);
+    if ((inView, data?.data?.length, !isLoading && !isFetching)) {
+      fetchNextPage();
     }
   }, [inView]);
+
+  const fullData = useMemo(() => {
+    if (!data?.pages?.length) return [];
+
+    return data?.pages?.reduce((acc, curr) => {
+      return [...acc, ...curr.data];
+    }, []);
+  }, [data]);
+
+  console.log("FULL DATA ", fullData);
 
   if (isLoading)
     return (
@@ -37,7 +56,7 @@ const CategoriesData = () => {
 
   if (error) return <div> {error?.message} </div>;
 
-  if (!data?.data?.length)
+  if (!fullData?.length)
     return (
       <div className="container">
         <p className="py-16 opacity-50">No Hotels founded</p>
@@ -47,11 +66,13 @@ const CategoriesData = () => {
   return (
     <div className="container">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {data?.data?.map((item) => (
+        {fullData?.map((item) => (
           <HotelCard key={item._id} data={item} showPrice />
         ))}
       </div>
-      <div ref={ref}> </div>
+
+      {isFetching && <Skeleton className="h-64" />}
+      {!isFetching && !isLoading && <div ref={ref}> </div>}
     </div>
   );
 };

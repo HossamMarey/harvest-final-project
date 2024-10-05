@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import React, { useState } from "react";
-import { BiBed } from "react-icons/bi";
+import { BiBath, BiBed, BiUser } from "react-icons/bi";
 import { FaRegHeart, FaHeart } from "react-icons/fa";
 import { FiShare2 } from "react-icons/fi";
 const Feature = ({ icon, title }) => {
@@ -12,7 +12,7 @@ const Feature = ({ icon, title }) => {
   );
 };
 
-const SingleHotelDetails = () => {
+const SingleHotelDetails = ({ hotel }) => {
   const [isFavourite, setIsFavourite] = useState(false);
 
   return (
@@ -21,8 +21,8 @@ const SingleHotelDetails = () => {
         {/* title  */}
         <div className="flex items-center gap-4">
           <div className="flex-1">
-            <h1 className="text-3xl font-bold"> Hotel Title </h1>
-            <p> Hotel Description</p>
+            <h1 className="text-3xl font-bold">{hotel?.name}</h1>
+            <p>{hotel?.summary}</p>
           </div>
           <div>
             <Button
@@ -47,11 +47,19 @@ const SingleHotelDetails = () => {
           </div>
         </div>
         {/* Main Features  */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6 ">
-          <Feature title="3 Bedrooms" icon={<BiBed size={36} />} />
-          <Feature title="3 Bedrooms" icon={<BiBed size={36} />} />
-          <Feature title="3 Bedrooms" icon={<BiBed size={36} />} />
-          <Feature title="3 Bedrooms" icon={<BiBed size={36} />} />
+        <div className="grid  lg:grid-cols-3 gap-4 lg:gap-6 ">
+          <Feature
+            title={hotel?.bedrooms + " Bedrooms"}
+            icon={<BiBed size={36} />}
+          />
+          <Feature
+            title={hotel?.bathrooms + " Bathrooms"}
+            icon={<BiBath size={36} />}
+          />
+          <Feature
+            title={"up to " + hotel?.capacity + " members"}
+            icon={<BiUser size={36} />}
+          />
         </div>
         {/* full description  */}
         <div>
@@ -69,8 +77,7 @@ const SingleHotelDetails = () => {
       <div>
         <div className="bg-card rounded-md p-5 lg:p-6 ">
           <div className="font-bold text-xl pb-6 border-b border-foreground/20 ">
-            {" "}
-            $2000 - $3000{" "}
+            ${hotel?.price}
           </div>
 
           <div className="py-6 flex flex-col gap-1">

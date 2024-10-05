@@ -1,7 +1,7 @@
 import clientApi from "@/services/clientApi";
 import { SEARCH_PARAMS } from "@/services/constant";
 import { useClientSearchParams } from "@/services/hooks";
-import { useQuery } from "@tanstack/react-query";
+import { useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import { useMemo } from "react";
 
 export const getHotels = async ({
@@ -40,7 +40,7 @@ export const getHotels = async ({
 
 export const GET_HOTELS_QUERY_KEY = "/hotels";
 
-export const useGetHotelsQuery = ({ page = 1 }) => {
+const useSearchParams = () => {
   const [searchParams] = useClientSearchParams();
 
   const roomType = useMemo(() => {
@@ -69,6 +69,20 @@ export const useGetHotelsQuery = ({ page = 1 }) => {
     return searchParams.get(SEARCH_PARAMS.capacity) || "";
   }, [searchParams]);
 
+  return {
+    roomType,
+    minPrice,
+    maxPrice,
+    capacity,
+    bedrooms,
+    bathrooms,
+  };
+};
+
+export const useGetHotelsQuery = ({ page = 1 }) => {
+  const { roomType, minPrice, maxPrice, capacity, bedrooms, bathrooms } =
+    useSearchParams();
+
   return useQuery({
     queryKey: [
       GET_HOTELS_QUERY_KEY,
@@ -90,5 +104,43 @@ export const useGetHotelsQuery = ({ page = 1 }) => {
         bathrooms,
         page,
       }),
+  });
+};
+
+export const GET_HOTELS_INFINITE_QUERY_KEY = "/infinite/hotels";
+export const useGetHotelsInfiniteQuery = () => {
+  const { roomType, minPrice, maxPrice, capacity, bedrooms, bathrooms } =
+    useSearchParams();
+
+  return useInfiniteQuery({
+    queryKey: [
+      GET_HOTELS_INFINITE_QUERY_KEY,
+      roomType,
+      minPrice,
+      maxPrice,
+      capacity,
+      bedrooms,
+      bathrooms,
+    ],
+    queryFn: ({ pageParam = 1 }) =>
+      getHotels({
+        page: pageParam,
+        roomType,
+        minPrice,
+        maxPrice,
+        capacity,
+        bedrooms,
+        bathrooms,
+      }),
+    getNextPageParam: (lastPage, allPages) => {
+      console.log("lastPage 000000000000000", lastPage);
+      const currentPage = lastPage?.pagination?.page;
+      const total = lastPage?.pagination?.total || 0;
+      const perPage = lastPage?.pagination?.perPage || 0;
+      const last_page = Math.ceil(total / perPage);
+      if (currentPage === last_page) return undefined;
+
+      return currentPage + 1;
+    },
   });
 };

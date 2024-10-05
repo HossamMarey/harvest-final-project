@@ -1,7 +1,12 @@
+import { ERROR_CODES } from "../constatnts/ERRPR_CODES.js";
 import Hotel, { roomTypes } from "../models/Hotel.js";
 import { asyncHandler } from "../utils/asyncHandler.js"
+import { AppError } from '../utils/appError.js'
+import fs from 'fs/promises'
+import path from 'path'
 
 
+const __dirname = import.meta.dirname
 export const getHotels = asyncHandler(async (req, res) => {
   const page = parseInt(req.query.page) || 1;
   const perPage = parseInt(req.query.perPage) || 10;
@@ -87,6 +92,28 @@ export const getHotels = asyncHandler(async (req, res) => {
 })
 
 
+export const getHotelById = asyncHandler(async (req, res) => {
+
+
+
+  if (!req.params.id) {
+    throw new AppError(ERROR_CODES.INVALID_DATA, "Invalid data", 400)
+  }
+
+  const hotel = await Hotel.findById(req.params.id)
+
+  if (!hotel) {
+    throw new AppError(ERROR_CODES.NOT_FOUND, "Hotel not found", 404)
+
+  }
+
+
+  res.json({
+    success: true,
+    data: hotel
+  })
+})
+
 export const getHotelRoomTypes = asyncHandler(async (req, res) => {
 
 
@@ -94,4 +121,22 @@ export const getHotelRoomTypes = asyncHandler(async (req, res) => {
     success: true,
     data: roomTypes
   })
+})
+
+
+export const seedHotels = asyncHandler(async (req, res) => {
+
+  const d = await fs.readFile(path.join(__dirname, 'data.json'), 'utf-8')
+
+  const data = JSON.parse(d).map(h => {
+    delete h._id
+
+    return h
+  })
+
+
+  const resp = await Hotel.insertMany(data)
+
+
+  res.json({ success: true, data: resp })
 })
